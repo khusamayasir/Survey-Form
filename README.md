@@ -1,3 +1,5 @@
 # Survey-Form
 
-In-Progress
+Preview: https://fcc-survey-form-project.netlify.app/
+
+toDo this challenge/project go: https://freecodecamp.org
