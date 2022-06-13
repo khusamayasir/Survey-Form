@@ -13,6 +13,7 @@
             <h1 id="title">freeCodeCamp Survey Form</h1>
             <p id="description">Thank You for taking the time to help us improve the platform</p>
         </header>
+
         <form id="survey-form">
             <div class="form-group">
                 <label for="name" id="name-label">Name</label>
@@ -54,9 +55,9 @@
                   <option value="prefer_not_to_say">Prefer not to say</option>
                   <option value="other">Other</option>
                 </select>
-              </div>
-
-              <div class="form-group">
+             </div>
+             
+             <div class="form-group">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <label for="definitely">
                     <input
@@ -85,9 +86,20 @@
                     checked />
                     Not Sure
                 </label>
-              </div>
+            </div>
+            
+            <div class="form-group">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select name="MostFav" id="MostFav-DropDown" class="control-label" required>
+                  <option disabled selected value>Select an option</option>
+                  <option value="Challenges">Challenges</option>
+                  <option value="Projects">Projects</option>
+                  <option value="Community">Community</option>
+                  <option value="open source">Open Source</option>
+                </select>
+            </div>
+
         </form>
     </main>
-    
 </body>
 </html>
